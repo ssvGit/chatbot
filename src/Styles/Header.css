@@ -1,0 +1,16 @@
+.header{
+    display: grid;
+    grid-template-areas: 'logo nav';
+    background-color:aliceblue;
+    height: 8vh
+}
+
+.Nav{
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+}
